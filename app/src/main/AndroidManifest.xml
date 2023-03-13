@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentbuddy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/books"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/books"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestFirst">
+        <activity android:name="com.example.studentbuddy.Login4"></activity>
+        <activity android:name="com.example.studentbuddy.Login3" />
+        <activity android:name="com.example.studentbuddy.Login2" />
+        <activity android:name="com.example.studentbuddy.Login1" />
+        <activity android:name="com.example.studentbuddy.ClassSelection" />
+        <activity android:name="com.example.studentbuddy.MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.studentbuddy.HomeWork1" />
+        <activity android:name="com.example.studentbuddy.StudentLogin2" />
+        <activity android:name="com.example.studentbuddy.RecordedLectures4" />
+        <activity android:name="com.example.studentbuddy.RecordedLectures3" />
+        <activity android:name="com.example.studentbuddy.RecordedLectures2" />
+        <activity android:name="com.example.studentbuddy.RecordedLectures1" />
+        <activity android:name="com.example.studentbuddy.ClassLinks4" />
+        <activity android:name="com.example.studentbuddy.ClassLinks2" />
+        <activity android:name="com.example.studentbuddy.ClassLinks3" />
+        <activity android:name="com.example.studentbuddy.ClassLinks1" />
+        <activity android:name="com.example.studentbuddy.ScienceHw4" />
+        <activity android:name="com.example.studentbuddy.ScienceHw3" />
+        <activity android:name="com.example.studentbuddy.ScienceHw2" />
+        <activity android:name="com.example.studentbuddy.ScienceHw1" />
+        <activity android:name="com.example.studentbuddy.MathHw4" />
+        <activity android:name="com.example.studentbuddy.MathHw3" />
+        <activity android:name="com.example.studentbuddy.MathHw2" />
+        <activity android:name="com.example.studentbuddy.MathHw1" />
+        <activity android:name="com.example.studentbuddy.EnglishHw4" />
+        <activity android:name="com.example.studentbuddy.EnglishHw3" />
+        <activity android:name="com.example.studentbuddy.EnglishHw2" />
+        <activity android:name="com.example.studentbuddy.EnglishHw1" />
+        <activity android:name="com.example.studentbuddy.Homework4" />
+        <activity android:name="com.example.studentbuddy.Homework3" />
+        <activity android:name="com.example.studentbuddy.Homework2" />
+        <activity android:name="com.example.studentbuddy.Notice4" />
+        <activity android:name="com.example.studentbuddy.Notice3" />
+        <activity android:name="com.example.studentbuddy.Notice2" />
+        <activity android:name="com.example.studentbuddy.Notice1" />
+        <activity android:name="com.example.studentbuddy.StudentLogin4" />
+        <activity android:name="com.example.studentbuddy.StudentLogin3" />
+        <activity android:name="com.example.studentbuddy.StudentLogin1" />
+        <activity android:name="com.example.studentbuddy.RecordedLectures" />
+        <activity android:name="com.example.studentbuddy.ClassLinks" />
+        <activity android:name="com.example.studentbuddy.ScienceHw" />
+        <activity android:name="com.example.studentbuddy.MathHw" />
+        <activity android:name="com.example.studentbuddy.EnglishHw" />
+        <activity android:name="com.example.studentbuddy.HomeWork" />
+        <activity android:name="com.example.studentbuddy.Notice" />
+        <activity android:name="com.example.studentbuddy.StudentLogin" />
+        <activity android:name="com.example.studentbuddy.Login" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+    </application>
+
+</manifest>

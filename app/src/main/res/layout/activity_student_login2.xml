@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentLogin2">
+
+    <Button
+        android:id="@+id/btnNotice2"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="casual"
+        android:text="@string/notice"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLinks2"
+        app:layout_constraintEnd_toEndOf="@+id/btnLinks2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnLinks2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/btnLogOut2"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="casual"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <Button
+        android:id="@+id/btnLinks2"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="casual"
+        android:text="@string/links_for_classes"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnLecture2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLecture2"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:fontFamily="casual"
+        android:text="@string/recorded_lectures"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnHomeWork2"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="casual"
+        android:text="@string/home_work"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLecture2"
+        app:layout_constraintEnd_toEndOf="@+id/btnLecture2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnLecture2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <TextView
+        android:id="@+id/tvWelcomeThird"
+        android:layout_width="371dp"
+        android:layout_height="38dp"
+        android:fontFamily="casual"
+        android:text="@string/welcome_class_3rd"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+</androidx.constraintlayout.widget.ConstraintLayout>
